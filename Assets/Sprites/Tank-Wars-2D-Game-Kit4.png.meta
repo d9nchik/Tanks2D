@@ -1,0 +1,892 @@
+fileFormatVersion: 2
+guid: 4327433ebc8501e45954e65a6694c576
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 476
+        width: 154
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9382a56be415d949980523277b78566
+      internalID: -690862291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 476
+        width: 154
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c549a3ac51cb4c1489bf8e01a3a04ab6
+      internalID: -1205465373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_2
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 476
+        width: 155
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b846098ab570b534dab20739aa562aba
+      internalID: 288202879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_3
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 476
+        width: 155
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04417959718753946908a841ef58bd4f
+      internalID: 1374094119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_4
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 476
+        width: 155
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861acaa3b38a27e429489ec893958279
+      internalID: 293248184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_5
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 476
+        width: 156
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc9747d818d6d64c87fd6c2a973a535
+      internalID: 1411602911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_6
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 476
+        width: 155
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2450ae3e937ee469c9f396dc38eee3
+      internalID: -1035890571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_7
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 476
+        width: 154
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436a2fed75c4440489095b6e2c9d8dfe
+      internalID: -1578271423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_9
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 388
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362393665112d084ba7841014a15a0d1
+      internalID: 1557314537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_11
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 326
+        width: 112
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e1de42cd6fc8446bd0202a40368249
+      internalID: 880857133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_12
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 340
+        width: 75
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63a13cac0ab652408ff9edadc6d40e1
+      internalID: -290509613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_14
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 354
+        width: 74
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd770ead20f82b4a87b6693c8f55022
+      internalID: -919375117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_15
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 375
+        width: 62
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b2b7ba7fe601c48928e78f991d54df
+      internalID: 1466542164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_21
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 323
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143d2256926eb4e41aef864ba58e3a92
+      internalID: 622505579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_24
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 337
+        width: 110
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82897472f638c92439e95a114684826a
+      internalID: -762495892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_27
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 182
+        width: 85
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9153e9ba97fea154c8bb61d6cdace8ea
+      internalID: 1043401436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_28
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 169
+        width: 111
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c332c323c467c44b02401dfe205094
+      internalID: -1911338786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_29
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 158
+        width: 124
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847af9b006d35734b972cfeeb72b564c
+      internalID: -1325084180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_30
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 149
+        width: 128
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338d5424d9f25184c8cd3c0dec171fe1
+      internalID: -839071752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_36
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 198
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200d45d1d2cf41f488a88a95019aaa0e
+      internalID: 263508343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_37
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 189
+        width: 67
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b14ded0f962ea84fada4a2575b9cb02
+      internalID: 610729035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_42
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 155
+        width: 120
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bd6ad6e54b479469312e7eb5c54a22
+      internalID: -1806078343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_44
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 164
+        width: 90
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79de85d7b01a31840b46a5e2e435e985
+      internalID: 2146441374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_46
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 177
+        width: 80
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc12b6a8bdf80544979e92c79f00e90
+      internalID: -433022324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_64
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 4
+        width: 135
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f543105aef4d3f448b977f227bc0f100
+      internalID: -2109613302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_66
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 2
+        width: 149
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494300452c10ddf4782a36eeabb02184
+      internalID: 1619755087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_67
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2
+        width: 96
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597aa88fd8d05044bb3352c24a0a775f
+      internalID: -2028592817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_69
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 111
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2726188a9e03e0544976b4e062d67b43
+      internalID: -1580660975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_71
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 3
+        width: 129
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0180c1aca5f0372469a110c475bca60f
+      internalID: 916637651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_73
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 6
+        width: 133
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc543bdbf8a90146b77e1b4a422ca15
+      internalID: 7063027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_75
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 7
+        width: 144
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bdd3d147fd88e438ee6e3164d85f46
+      internalID: -1948306951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank-Wars-2D-Game-Kit4_79
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 6
+        width: 130
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70949a59b6bf475418afe3b567ea4577
+      internalID: -421577909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tank-Wars-2D-Game-Kit4_21: 622505579
+      Tank-Wars-2D-Game-Kit4_19: -1192698283
+      Tank-Wars-2D-Game-Kit4_44: 2146441374
+      Tank-Wars-2D-Game-Kit4_82: -426029599
+      Tank-Wars-2D-Game-Kit4_22: -1028013690
+      Tank-Wars-2D-Game-Kit4_45: -1689865756
+      Tank-Wars-2D-Game-Kit4_35: -1792617048
+      Tank-Wars-2D-Game-Kit4_56: 1085799174
+      Tank-Wars-2D-Game-Kit4_2: 288202879
+      Tank-Wars-2D-Game-Kit4_43: 1326515136
+      Tank-Wars-2D-Game-Kit4_79: -421577909
+      Tank-Wars-2D-Game-Kit4_77: 540215232
+      Tank-Wars-2D-Game-Kit4_10: 464457282
+      Tank-Wars-2D-Game-Kit4_55: 1847985842
+      Tank-Wars-2D-Game-Kit4_49: 62389844
+      Tank-Wars-2D-Game-Kit4_46: -433022324
+      Tank-Wars-2D-Game-Kit4_66: 1619755087
+      Tank-Wars-2D-Game-Kit4_51: 204307818
+      Tank-Wars-2D-Game-Kit4_25: 386168762
+      Tank-Wars-2D-Game-Kit4_39: 574238646
+      Tank-Wars-2D-Game-Kit4_53: -920167988
+      Tank-Wars-2D-Game-Kit4_67: -2028592817
+      Tank-Wars-2D-Game-Kit4_23: 1196914240
+      Tank-Wars-2D-Game-Kit4_26: 1108926022
+      Tank-Wars-2D-Game-Kit4_58: 1369907886
+      Tank-Wars-2D-Game-Kit4_18: -1824260778
+      Tank-Wars-2D-Game-Kit4_17: -262876077
+      Tank-Wars-2D-Game-Kit4_69: -1580660975
+      Tank-Wars-2D-Game-Kit4_33: -543322798
+      Tank-Wars-2D-Game-Kit4_38: -670718603
+      Tank-Wars-2D-Game-Kit4_80: 1148718846
+      Tank-Wars-2D-Game-Kit4_71: 916637651
+      Tank-Wars-2D-Game-Kit4_61: -683498894
+      Tank-Wars-2D-Game-Kit4_42: -1806078343
+      Tank-Wars-2D-Game-Kit4_34: 1581696354
+      Tank-Wars-2D-Game-Kit4_1: -1205465373
+      Tank-Wars-2D-Game-Kit4_57: -466167190
+      Tank-Wars-2D-Game-Kit4_76: -2120328610
+      Tank-Wars-2D-Game-Kit4_78: 1688869899
+      Tank-Wars-2D-Game-Kit4_8: 984584686
+      Tank-Wars-2D-Game-Kit4_15: 1466542164
+      Tank-Wars-2D-Game-Kit4_13: -1226439143
+      Tank-Wars-2D-Game-Kit4_16: 1801088114
+      Tank-Wars-2D-Game-Kit4_14: -919375117
+      Tank-Wars-2D-Game-Kit4_31: 1595832010
+      Tank-Wars-2D-Game-Kit4_41: -438709417
+      Tank-Wars-2D-Game-Kit4_52: -1317038670
+      Tank-Wars-2D-Game-Kit4_62: -1973529102
+      Tank-Wars-2D-Game-Kit4_32: 609511344
+      Tank-Wars-2D-Game-Kit4_63: 2023890378
+      Tank-Wars-2D-Game-Kit4_64: -2109613302
+      Tank-Wars-2D-Game-Kit4_72: 326026653
+      Tank-Wars-2D-Game-Kit4_81: -295128023
+      Tank-Wars-2D-Game-Kit4_11: 880857133
+      Tank-Wars-2D-Game-Kit4_47: 1239356277
+      Tank-Wars-2D-Game-Kit4_30: -839071752
+      Tank-Wars-2D-Game-Kit4_0: -690862291
+      Tank-Wars-2D-Game-Kit4_4: 293248184
+      Tank-Wars-2D-Game-Kit4_36: 263508343
+      Tank-Wars-2D-Game-Kit4_24: -762495892
+      Tank-Wars-2D-Game-Kit4_60: 1306728255
+      Tank-Wars-2D-Game-Kit4_28: -1911338786
+      Tank-Wars-2D-Game-Kit4_12: -290509613
+      Tank-Wars-2D-Game-Kit4_84: -1820916079
+      Tank-Wars-2D-Game-Kit4_74: 248951485
+      Tank-Wars-2D-Game-Kit4_50: -762245664
+      Tank-Wars-2D-Game-Kit4_3: 1374094119
+      Tank-Wars-2D-Game-Kit4_6: -1035890571
+      Tank-Wars-2D-Game-Kit4_37: 610729035
+      Tank-Wars-2D-Game-Kit4_68: -465990562
+      Tank-Wars-2D-Game-Kit4_59: 1561297226
+      Tank-Wars-2D-Game-Kit4_7: -1578271423
+      Tank-Wars-2D-Game-Kit4_75: -1948306951
+      Tank-Wars-2D-Game-Kit4_65: 707617689
+      Tank-Wars-2D-Game-Kit4_9: 1557314537
+      Tank-Wars-2D-Game-Kit4_20: -1450805840
+      Tank-Wars-2D-Game-Kit4_48: -1467063998
+      Tank-Wars-2D-Game-Kit4_70: 1310547305
+      Tank-Wars-2D-Game-Kit4_27: 1043401436
+      Tank-Wars-2D-Game-Kit4_40: -466320573
+      Tank-Wars-2D-Game-Kit4_29: -1325084180
+      Tank-Wars-2D-Game-Kit4_54: -1699635945
+      Tank-Wars-2D-Game-Kit4_5: 1411602911
+      Tank-Wars-2D-Game-Kit4_73: 7063027
+      Tank-Wars-2D-Game-Kit4_83: 766350800
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
