@@ -5,7 +5,7 @@ using UnityEngine;
 public class Tank : MonoBehaviour
 {
     private readonly float speedForce = 15f;
-    public float maxSpeed = 10f;
+    private readonly float maxSpeed = 10f;
     private Rigidbody2D rb;
 
     void Start()
