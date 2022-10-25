@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6008850908114077611}
   - component: {fileID: 1487322081772374280}
   - component: {fileID: 8386942482921366262}
-  - component: {fileID: 8145220510404640566}
+  - component: {fileID: 1596322380148320816}
   m_Layer: 0
-  m_Name: Tank
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83,7 +83,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &8145220510404640566
+--- !u!114 &1596322380148320816
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,7 +92,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2352027017628427113}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88095676b30ce3e4883f0bdc976eb81a, type: 3}
+  m_Script: {fileID: 11500000, guid: 6c7fb3aec9ecc074a8e0d535a57ab0d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2461200153441100671

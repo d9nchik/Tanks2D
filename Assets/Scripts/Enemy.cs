@@ -2,30 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : Tank
 {
-    private int health = 100;
+    [SerializeField]
+    private GameObject bulletPrefab;
+    [SerializeField]
+    private Transform firePoint;
+    private float timeElapsed;
 
-    void Start()
-    {
-        
-    }
+
     void Update()
     {
-        
-    }
+        timeElapsed += Time.deltaTime;
 
-    public void TakeDamage(int damage)
-    {
-        health -= damage;
-        if (health <= 0)
+        if (timeElapsed > 5)
         {
-            Die();
+            timeElapsed = 0;
+            Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         }
-    }
-
-    private void Die()
-    {
-        Destroy(gameObject);
     }
 }

@@ -4,25 +4,19 @@ using UnityEngine;
 
 public class Tank : MonoBehaviour
 {
-    private readonly float speedForce = 15f;
-    private readonly float maxSpeed = 10f;
-    private Rigidbody2D rb;
+    private int health = 100;
 
-    void Start()
+    public void TakeDamage(int damage)
     {
-        rb = GetComponent<Rigidbody2D>();
+        health -= damage;
+        if (health <= 0)
+        {
+            Die();
+        }
     }
 
-    void Update()
+    private void Die()
     {
-        float moveX = Input.GetAxis("Horizontal");// -1 to 1
-
-        rb.AddForce(moveX * speedForce * Vector2.right);
-
-
-        if (rb.velocity.magnitude > maxSpeed)
-        {
-            rb.velocity = rb.velocity.normalized * maxSpeed;
-        }
+        Destroy(gameObject);
     }
 }

@@ -9,6 +9,7 @@ public class Bullet : MonoBehaviour
     private float speed = 20;
     [SerializeField]
     private int damage = 10;
+    private string owner = "";
 
     void Start()
     {
@@ -23,13 +24,17 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.CompareTag("Player"))
+        if (owner == "")
+        {
+            owner = collision.tag;
+        }
+        if (!collision.CompareTag(owner))
         {
             Destroy(gameObject);
-            Enemy enemy = collision.GetComponent<Enemy>();
-            if (enemy != null)
+            Tank tank = collision.GetComponent<Tank>();
+            if (tank != null)
             {
-                enemy.TakeDamage(damage);
+                tank.TakeDamage(damage);
             }
         }
     }
