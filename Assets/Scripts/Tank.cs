@@ -15,7 +15,7 @@ public class Tank : MonoBehaviour
         }
     }
 
-    private void Die()
+    virtual protected void Die()
     {
         Destroy(gameObject);
     }
