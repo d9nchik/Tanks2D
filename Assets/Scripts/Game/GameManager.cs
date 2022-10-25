@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public enum GameState
 {
@@ -24,12 +25,21 @@ public class GameManager : MonoBehaviour
         Instance = this;
     }
 
+    private void Update()
+    {
+        if ((state == GameState.Lose || state == GameState.Victory) && Input.GetKey(KeyCode.Q))
+        {
+            UpdateGameState(GameState.MainMenu);
+        }
+    }
+
     public void UpdateGameState(GameState newState)
     {
         state = newState;
         switch (newState)
         {
             case GameState.MainMenu:
+                HandleMainMenu();
                 break;
             case GameState.Play:
                 HandlePlay();
@@ -64,5 +74,9 @@ public class GameManager : MonoBehaviour
     private void HandlePlay()
     {
         text.enabled = false;
+    }
+    private void HandleMainMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }
