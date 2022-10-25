@@ -11,7 +11,8 @@ public enum GameState
     Play,
     Victory,
     Lose,
-    Shop
+    Shop,
+    Pause
 }
 
 public class GameManager : MonoBehaviour
@@ -19,6 +20,8 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     private GameState state;
     public static event Action<GameState> OnGameStateChange;
+
+    public GameObject pauseMenu;
     [SerializeField] private TMP_Text text;
     void Awake()
     {
@@ -31,18 +34,37 @@ public class GameManager : MonoBehaviour
         {
             UpdateGameState(GameState.MainMenu);
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (GameState.Pause == state)
+            {
+                UpdateGameState(GameState.Play);
+            }
+            else
+            {
+                UpdateGameState(GameState.Pause);
+            }
+        }
+    }
+
+    private void HandlePause()
+    {
+        pauseMenu.SetActive(true);
+    }
+    public void Resume()
+    {
+        UpdateGameState(GameState.Play);
     }
 
     public void UpdateGameState(GameState newState)
     {
-        state = newState;
         switch (newState)
         {
             case GameState.MainMenu:
                 HandleMainMenu();
                 break;
             case GameState.Play:
-                HandlePlay();
+                HandlePlay();                
                 break;
             case GameState.Victory:
                 HandleVictory();
@@ -52,10 +74,15 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.Shop:
                 break;
+            case GameState.Pause:
+                HandlePause();
+                break;
             default:
                 break;
         }
 
+        state = newState;
+        Debug.Log(newState);
         OnGameStateChange?.Invoke(newState);
     }
 
@@ -74,6 +101,10 @@ public class GameManager : MonoBehaviour
     private void HandlePlay()
     {
         text.enabled = false;
+        if (state == GameState.Pause)
+        {
+            pauseMenu.SetActive(false);
+        }
     }
     private void HandleMainMenu()
     {

@@ -27,6 +27,7 @@ public class Enemy : Tank
             case GameState.Victory:
             case GameState.Lose:
             case GameState.Shop:
+            case GameState.Pause:
                 isActive = false;
                 break;
         }

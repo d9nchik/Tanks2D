@@ -10,17 +10,25 @@ public class Bullet : MonoBehaviour
     [SerializeField]
     private int damage = 10;
     private string owner = "";
+    public float rotatioinSpeed = 10f;
+
+    Vector3 m_EulerAngleVelocity;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        m_EulerAngleVelocity = new Vector3(0, 100, 0);
+        rb.velocity = transform.right * speed;
     }
 
     // Update is called once per frame
     void Update()
     {
-        rb.velocity = transform.right * speed;
+
     }
+
+  
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
