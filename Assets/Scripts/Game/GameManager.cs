@@ -36,21 +36,23 @@ public class GameManager : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (GameState.Pause == state)
+            switch (state)
             {
-                UpdateGameState(GameState.Play);
-            }
-            else
-            {
-                UpdateGameState(GameState.Pause);
+                case GameState.Pause:
+                    UpdateGameState(GameState.Play);
+                    break;
+                case GameState.Lose:
+                case GameState.Victory:
+                    UpdateGameState(GameState.MainMenu);
+                    break;
+                default:
+                    UpdateGameState(GameState.Pause);
+                    break;
             }
         }
     }
 
-    private void HandlePause()
-    {
-        pauseMenu.SetActive(true);
-    }
+
     public void Resume()
     {
         UpdateGameState(GameState.Play);
@@ -67,10 +69,16 @@ public class GameManager : MonoBehaviour
                 HandlePlay();                
                 break;
             case GameState.Victory:
-                HandleVictory();
+                if (!HandleVictory())
+                {
+                    return;
+                }
                 break;
             case GameState.Lose:
-                HandleLose();
+                if (!HandleLose())
+                {
+                    return;
+                }
                 break;
             case GameState.Shop:
                 break;
@@ -82,20 +90,29 @@ public class GameManager : MonoBehaviour
         }
 
         state = newState;
-        Debug.Log(newState);
         OnGameStateChange?.Invoke(newState);
     }
 
-    private void HandleLose()
+    private bool HandleLose()
     {
+        if (state == GameState.Victory)
+        {
+            return false;
+        }
         text.enabled = true;
         text.text = "You lose!";
+        return true;
     }
 
-    private void HandleVictory()
+    private bool HandleVictory()
     {
+        if (state == GameState.Lose)
+        {
+            return false;
+        }
         text.enabled = true;
         text.text = "You won!";
+        return true;
     }
 
     private void HandlePlay()
@@ -109,5 +126,10 @@ public class GameManager : MonoBehaviour
     private void HandleMainMenu()
     {
         SceneManager.LoadScene(0);
+    }
+
+    private void HandlePause()
+    {
+        pauseMenu.SetActive(true);
     }
 }
