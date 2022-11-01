@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Player : Tank
 {
-    private readonly float speedForce = 15f;
+    [SerializeField]
+    private float speedForce = 15f;
     private readonly float maxSpeed = 10f;
     private Rigidbody2D rb;
     private bool isActive = true;
