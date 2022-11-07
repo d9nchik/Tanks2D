@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1223319142280470718}
   - component: {fileID: 5770095057013931510}
   - component: {fileID: 5865223428805176032}
-  - component: {fileID: 3266322777704558808}
   m_Layer: 0
   m_Name: LevelSelectBtn
   m_TagString: Untagged
@@ -123,7 +122,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3266322777704558808}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SelectLevel, Assembly-CSharp
         m_MethodName: selectLevel
         m_Mode: 1
@@ -135,19 +134,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &3266322777704558808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3982617121744451822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40c3e9577dfedf64492d20ca8726c5bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelName: 
 --- !u!1 &5842474024554993202
 GameObject:
   m_ObjectHideFlags: 0

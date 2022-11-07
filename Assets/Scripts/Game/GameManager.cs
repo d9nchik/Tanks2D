@@ -23,9 +23,10 @@ public class GameManager : MonoBehaviour
 
     public GameObject pauseMenu;
     [SerializeField] private TMP_Text text;
-    void Awake()
+    void Start()
     {
         Instance = this;
+        state = GameState.Play;
     }
 
     private void Update()
@@ -56,6 +57,11 @@ public class GameManager : MonoBehaviour
     public void Resume()
     {
         UpdateGameState(GameState.Play);
+    }
+
+    public void MainMenu()
+    {
+        UpdateGameState(GameState.MainMenu);
     }
 
     public void UpdateGameState(GameState newState)

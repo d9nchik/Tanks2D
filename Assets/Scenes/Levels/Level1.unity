@@ -1234,6 +1234,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 176722074}
     - target: {fileID: 3562799661925209155, guid: 84e89df259c253048a4c528bfe9b86eb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562799661925209155, guid: 84e89df259c253048a4c528bfe9b86eb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Resume
       objectReference: {fileID: 0}
@@ -1254,8 +1258,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5640433499684660832, guid: 84e89df259c253048a4c528bfe9b86eb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 176722074}
+    - target: {fileID: 5640433499684660832, guid: 84e89df259c253048a4c528bfe9b86eb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640433499684660832, guid: 84e89df259c253048a4c528bfe9b86eb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640433499684660832, guid: 84e89df259c253048a4c528bfe9b86eb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5974604345626801830, guid: 84e89df259c253048a4c528bfe9b86eb, type: 3}
       propertyPath: m_Name
